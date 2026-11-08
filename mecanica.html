@@ -674,18 +674,5 @@
 
     <!-- =================== SCRIPT PRINCIPAL =================== -->
     <script src="assets/js/main.js"></script>
-    <script>
-      (function () {
-        document.addEventListener("contextmenu", function (l) {
-          l.preventDefault();
-        });
-        document.addEventListener("keydown", function (l) {
-          (123 === l.keyCode ||
-            (l.ctrlKey && l.shiftKey && 73 === l.keyCode) ||
-            (l.ctrlKey && 85 === l.keyCode)) &&
-            l.preventDefault();
-        });
-      })();
-    </script>
   </body>
 </html>
