@@ -93,7 +93,6 @@ function updateActiveNavLink() {
     });
 }
 
-window.addEventListener('scroll', updateActiveNavLink);
 
 // ===== CARD HOVER EFFECTS =====
 document.querySelectorAll('.card').forEach(card => {
